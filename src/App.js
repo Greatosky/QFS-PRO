@@ -1,20 +1,18 @@
 // import logo from './logo.svg';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  HashRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Hom from './component/Home';
 import Login from './component/login';
 import Sign from './component/sign';
 function App() {
   return (
-    <BrowserRouter basename="/{QFS-PRO}">
+    <Router>
       <Routes>
         <Route path="/" element={<Hom />}/>
-          {/* <Route Index element={<Hom />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/sign" element={<Sign />} />
-        
       </Routes>
-    </BrowserRouter>
+    </Router>
 
     // <Hom />
     // <Login />
