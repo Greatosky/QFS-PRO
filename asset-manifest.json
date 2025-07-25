@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Greatosky/QFS-PRO/static/css/main.f1539088.css",
+    "main.js": "/Greatosky/QFS-PRO/static/js/main.a7fdfc93.js",
+    "static/js/453.96453769.chunk.js": "/Greatosky/QFS-PRO/static/js/453.96453769.chunk.js",
+    "static/media/hero-background.jpg": "/Greatosky/QFS-PRO/static/media/hero-background.bc70f944c134a0f62cc3.jpg",
+    "static/media/Screenshot-2025-02-11-at-1.10.44 AM-1024x379.png": "/Greatosky/QFS-PRO/static/media/Screenshot-2025-02-11-at-1.10.44 AM-1024x379.b758a20d137f4e8880b6.png",
+    "static/media/ti.jpg": "/Greatosky/QFS-PRO/static/media/ti.a7767ad4d2a2c99cde2d.jpg",
+    "index.html": "/Greatosky/QFS-PRO/index.html",
+    "main.f1539088.css.map": "/Greatosky/QFS-PRO/static/css/main.f1539088.css.map",
+    "main.a7fdfc93.js.map": "/Greatosky/QFS-PRO/static/js/main.a7fdfc93.js.map",
+    "453.96453769.chunk.js.map": "/Greatosky/QFS-PRO/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1539088.css",
+    "static/js/main.a7fdfc93.js"
+  ]
+}
