@@ -6,12 +6,12 @@ import Login from './component/login';
 import Sign from './component/sign';
 function App() {
   return (
-    <BrowserRouter basename="/QFS-PRO">
+    <BrowserRouter basename="/{QFS-PRO}">
       <Routes>
         <Route path="/" element={<Hom />}/>
-          <Route Index element={<Hom />} />
-          <Route path="/QFS-PRO/login" element={<Login />} />
-          <Route path="/QFS-PRO/sign" element={<Sign />} />
+          {/* <Route Index element={<Hom />} /> */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/sign" element={<Sign />} />
         
       </Routes>
     </BrowserRouter>
