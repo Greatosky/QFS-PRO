@@ -1,0 +1,149 @@
+
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.login-img img{
+    display: block;
+    background-Size: cover;
+    background-position: absolute;
+    width: 100%;
+    height: 38rem;
+}
+.login{
+    margin-top: 3rem;
+    background-color:rgba(0, 0, 0, 0.514);
+    box-shadow: 1px 1px 3px #ba8ceebe;
+    border: none;
+    border-radius: 1rem;
+    position: absolute;  
+    left: 2rem;
+    top: 2rem;
+    display: block;
+    width: 30rem;
+    height: 32rem;
+}
+
+.login h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 4rem;
+    background: transparent;
+}
+.login span{
+    font-size:.8rem;
+    color:white;
+    line-height: 1rem;
+}
+.login p{
+    color:white;
+    line-height: 3rem;
+    font-size: .9rem;
+    font-weight: lighter;
+    background: transparent;
+}
+form{
+    display: inline-block;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 99;
+}
+.login-form{
+    text-align: left;
+    z-index: 99;
+    background: transparent;
+    margin-top: 1.5rem;
+}
+.login-form input{
+    width: 20rem;
+    height: 2.5rem;
+     padding: 0 1rem;
+    border-radius: 1.5rem;
+    border: 2px solid rgb(245, 237, 237);
+    outline:0;
+    background:transparent;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+.other{
+    display: block;
+    margin-top: 1rem;   
+    background: transparent;
+}
+.direct{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.rad{
+    color: #ec89fb69;
+}
+.butt{
+    display: inline-block;
+    width: 17rem;
+    background: #ec89fb69;
+    margin-bottom: 1rem;
+    padding: .8rem .8rem;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    z-index: 99;
+
+}
+.butt:hover{
+    border: none;
+    background-color:#fdfcfd;
+    color:black;
+    cursor: pointer;
+}
+/* sign css */
+.sign{
+    height: 34.5rem;
+    top: -1rem;
+}
+
+
+@media (max-width:526px){
+
+    .login{
+        width: 25rem;
+        left: 1rem;
+    }
+    .login h1{
+        font-size: 1.4rem;
+    }
+    .login p{
+        font-size: 10px;
+    }
+    .login-form input{
+        width: 15rem;
+    }
+    .butt{
+       width: 14rem;
+    } 
+
+}
+
+@media (max-width:423px){
+
+    .login{
+        width: 20rem;
+        left: 1.3rem;
+    }
+
+     
+}
