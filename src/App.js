@@ -10,8 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Hom />}/>
           <Route Index element={<Hom />} />
-          <Route path="login" element={<Login />} />
-          <Route path="/sign" element={<Sign />} />
+          <Route path="/QFS-PRO/login" element={<Login />} />
+          <Route path="/QFS-PRO/sign" element={<Sign />} />
         
       </Routes>
     </BrowserRouter>
