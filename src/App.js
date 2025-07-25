@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Hom />}/>
-          <Route path="/login" element={<Login />} />
+          <Route path="/QFS-PRO/login" element={<Login />} />
           <Route path="/sign" element={<Sign />} />
       </Routes>
     </Router>
