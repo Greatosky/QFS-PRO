@@ -11,7 +11,7 @@ import fiv from '../assets/img/Screenshot-2025-02-11-at-1.10.44 AM-1024x379.pn
 function Hom() {
 
     const handleLogin = () => {
-        window.location.href = './login'; 
+        window.location.href = '/login'; 
     }
      const handlesign = () => {
         window.location.href = './sign'; 
