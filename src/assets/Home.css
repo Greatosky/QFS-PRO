@@ -447,6 +447,7 @@ footer{
         text-align: center;
         margin-top: 1rem;
         font-size: .8rem;
+        line-height: 1.2rem
     }
     .home-content-list{
         display: inline-block;
@@ -516,6 +517,15 @@ footer{
     }
 }
 @media (max-width:557px){
+    
+    .home-content-text{
+        width: 80%;
+        padding: 2.5rem 3rem;
+        margin-top: 6rem;
+    }
+    .qfs-logo img{
+        height: 14rem;
+    }
 
     .home-content-text h1{
         font-size: 1.5rem;
@@ -527,8 +537,15 @@ footer{
         font-size: .8rem;
         text-align: left;
     }
+   
 }
 @media (max-width:461px) {
+
+    .home-content-text{
+        padding: 1rem 3rem;
+        margin-top: 6rem;
+        width: 90%;
+    }
     #home{
         padding: .8rem 1.2rem;
     }
@@ -559,7 +576,6 @@ footer{
         padding:0 1rem;
     }
     .home-content-text p{
-        /* width: 20rem; */
         display: inline-block;
         font-size: 10px;
         line-height: 1.2rem;
@@ -567,7 +583,8 @@ footer{
         margin-top: -3px;
     }
     .home-content-use{
-        margin-left: 1rem;
+        margin-left: 1.1rem;
+         width: 87%;
     }
     .addvertisement{
         padding: 1.5rem 1.5rem;
