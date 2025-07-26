@@ -4,7 +4,7 @@ import mypic from '../assets/img/ti.jpg';
 
 function Sign() {
     const handlesign = () => {
-        window.location.href = './login'; 
+        window.location.href = 'https://greatosky.github.io/QFS-PRO/#/login'; 
     }
   return (
     <div className="log-body">
