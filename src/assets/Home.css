@@ -8,13 +8,10 @@
     font-style: normal;
     text-align: center;
     overflow-x: hidden;
-    /* display: none; */
-    /* background: white; */
 
 }
 .body{
     background:white;
-    /* display: block; */
 }
 #home{
     display:flex;
@@ -75,7 +72,6 @@
     top: 0;
     left: 0;
     right: 0;
-    /* z-index: 99; */
 }
 .home-content h1{
     font-size: 3rem;
@@ -149,7 +145,7 @@
     text-align: left;
     color: rgb(88, 88, 88);
     font-size:.8rem;
-    line-height: 1rem;
+    line-height: 1.2rem;
     font-family: "Poppins", sans-serif;
 
 }
@@ -216,7 +212,7 @@
     font-size: .8rem;
     color: rgb(88, 88, 88);
     text-align: left;
-    line-height: 1rem;
+    line-height: 1.2rem;
     margin-top: 1rem;
     background:white;
 
@@ -344,7 +340,6 @@ footer{
     .contenar div img{
         width:2rem;
         height: 2rem;
-        margin-left:1rem;
         margin-top: -2rem;
         padding: 0 ;
         display:block;
@@ -393,9 +388,9 @@ footer{
     }
     .home-content-use{
         display: block;
-        margin-left: 3rem;
+        margin-left: 2rem;
         justify-content: center;
-        width: 80%;
+        width: 87%;
         background-color: transparent;
     }
 
@@ -414,7 +409,6 @@ footer{
         margin-top: -1rem;
     }
     .contenar div img{
-        margin-left: 1rem;
         position: absolute;
     }
     .img{
@@ -451,7 +445,6 @@ footer{
     }
     .home-content-list{
         display: inline-block;
-
     }
     .fir{
         margin-bottom: .6rem;
@@ -583,14 +576,20 @@ footer{
         margin-top: -3px;
     }
     .home-content-use{
-        margin-left: 1.1rem;
+        margin-left: .8rem;
          width: 87%;
     }
     .addvertisement{
         padding: 1.5rem 1.5rem;
     }
     .home-content-list{
-        padding: 1.5rem 1.5rem;
+        display: block;
+        width: 100%;
+    }
+    .list-one{
+        display: block;
+        width: 84%;
+        margin-left: -1.5rem;
     }
     footer{
         padding: 1.5rem 1.5rem;
@@ -603,5 +602,4 @@ footer{
 }
 
 
-/* login css */
 
