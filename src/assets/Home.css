@@ -12,6 +12,7 @@
 }
 .body{
     background:white;
+    width: 100%;
 }
 #home{
     display:flex;
@@ -127,9 +128,9 @@
 .home-content-use{
     background:white;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 6rem;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin-right: 6rem; */
     width: 100%;
     gap: 1rem;
 }
@@ -137,29 +138,27 @@
     text-align: justify;
     color: #812fdf;
     line-height: 4rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 500;
 
 }
 .home-content-use p{
     text-align: left;
     color: rgb(88, 88, 88);
-    font-size:.8rem;
-    line-height: 1.2rem;
+    font-size:13px;
+    line-height: 1.5rem;
     font-family: "Poppins", sans-serif;
 
 }
 .contenar{
     display: flex;
     align-items: center;
-    padding: 1rem;
-    gap: 1rem;
+    gap: .5rem;
     width: 25rem;
-    justify-content: space-between;
 }
 .contenar img{
-    width:2.3rem;
-    height: 2.3rem;
+    width:2rem;
+    height: 2rem;
     margin-top: -2.5rem;
     display: inline-block;
     position: absolute;
@@ -387,26 +386,24 @@ footer{
         margin-top: 5rem;
     }
     .home-content-use{
-        display: block;
-        margin-left: 2rem;
+        display: inline-block;
         justify-content: center;
-        width: 87%;
+        width: 33rem;
         background-color: transparent;
+        padding: 1rem;
     }
-
     .list p{
-        line-height: 1.3rem;
+        line-height: 1.5rem;
+         font-size:13px;
+        margin-bottom: 1rem;
     }
     .home-content-use h2{
         color: #812fdf;
-        font-size: 1.5rem;
-    }
-    .home-content-use p{
-        font-size:.9rem;
+        font-size: 1.3rem;
     }
     .contenar{
-        width: 95%;
-        margin-top: -1rem;
+        width: 100%;
+        margin-top: .5rem;
     }
     .contenar div img{
         position: absolute;
@@ -430,7 +427,7 @@ footer{
     .add-text{
         display: inline-block;
         text-align: center;
-        width: 100%;
+        width: 33rem;
         line-height: 1rem;
     }
     .add-text h2{
@@ -445,6 +442,7 @@ footer{
     }
     .home-content-list{
         display: inline-block;
+        width: 33rem;
     }
     .fir{
         margin-bottom: .6rem;
@@ -481,13 +479,16 @@ footer{
         width:2rem;
         height: 1.3rem;
     }
-    
-    .list h2{
-        font-size: 1.5rem;
-        line-height: 2.5rem;
+    .home-content-use{
+        width: 28rem;
     }
-    .list p{
-        font-size: .7rem;
+    .contenar{
+        margin-top: 0;
+    }
+    .add-text{
+        display: inline-block;
+        text-align: center;
+        width: 95%;
         line-height: 1rem;
     }
     .crypto-pack{
@@ -502,7 +503,6 @@ footer{
     .list-one h3{
         font-size: 1rem;
         line-height: 1.8rem;
-
     }
     .list-one p{
         font-size: .7rem;
@@ -510,7 +510,16 @@ footer{
     }
 }
 @media (max-width:557px){
-    
+    #home{
+        padding: .8rem 1.1rem;
+    }
+    #home span{
+        padding: .3rem 1rem;
+        margin-top: .2rem;
+    }
+    #home button{
+    padding: .2rem 1rem;
+}
     .home-content-text{
         width: 80%;
         padding: 2.5rem 3rem;
@@ -530,28 +539,21 @@ footer{
         font-size: .8rem;
         text-align: left;
     }
-   
+    .home-content-use{
+        width: 90%;
+    }
+    
+   .home-content-list{
+        display: inline-block;
+        width: 94%;
+        padding: 1rem 1.5rem;
+    }
 }
 @media (max-width:461px) {
-
     .home-content-text{
         padding: 1rem 3rem;
         margin-top: 6rem;
         width: 90%;
-    }
-    #home{
-        padding: .8rem 1.2rem;
-    }
-    #home img{
-        width: 3.5rem;
-    }
-    #home button{
-        font-size: .8rem;
-        width: 4rem;
-    }
-    #home span{
-        font-size: .8rem;
-        padding: 1rem 1rem;
     }
     .qfs-logo img{
         width: 17rem;
@@ -559,7 +561,6 @@ footer{
     .home-content-text{
         padding: 4rem 0;
         display: inline-block;
-
     }
     .home-content-text h1{
         display: inline-block;
@@ -576,8 +577,14 @@ footer{
         margin-top: -3px;
     }
     .home-content-use{
-        margin-left: .8rem;
          width: 87%;
+    }
+    .contenar{
+        margin-top: .5rem;
+    }
+    .list p{
+        line-height: 1.2rem;
+         font-size:12px;
     }
     .addvertisement{
         padding: 1.5rem 1.5rem;
@@ -589,7 +596,6 @@ footer{
     .list-one{
         display: block;
         width: 84%;
-        margin-left: -1.5rem;
     }
     footer{
         padding: 1.5rem 1.5rem;

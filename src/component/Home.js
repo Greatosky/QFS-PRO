@@ -20,7 +20,7 @@ function Hom() {
         <div className="body">
             <div id="home">
                 <div className="img-logo">
-                <img src={img} alt="qfs"  width="100" height="50"  />
+                    <img src={img} alt="qfs"  width="100" height="50"  />
                 </div>
                 <div>
                     <button onClick={handleLogin}>Login</button> 
