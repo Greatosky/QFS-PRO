@@ -82,7 +82,7 @@ function Hom() {
                             <h2>All assets in one place</h2>
                             <p>Many companies have issued their tokens on Stellar network: stablecoins, tethered crypto assets, tech startups, ICOs.
                             Trade and manage them all with QFSLedger.</p>
-                            <button>Creat Account</button>
+                            <button onClick={handlesign}>Creat Account</button>
                         </div>
                     </div>
                 </div>

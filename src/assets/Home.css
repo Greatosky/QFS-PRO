@@ -513,8 +513,12 @@ footer{
     #home{
         padding: .8rem 1.1rem;
     }
+    .img-logo img{
+        width: 80px;
+        height: 40px;
+    }
     #home span{
-        padding: .3rem 1rem;
+        padding: .2rem .5rem;
         margin-top: .2rem;
     }
     #home button{
@@ -547,6 +551,11 @@ footer{
         display: inline-block;
         width: 94%;
         padding: 1rem 1.5rem;
+    }
+}
+@media (max-width:490px) {
+    .add-text p, .add-text h2, .add-text {
+        text-align: left;
     }
 }
 @media (max-width:461px) {
