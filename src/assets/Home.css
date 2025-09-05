@@ -552,6 +552,9 @@ footer{
         width: 94%;
         padding: 1rem 1.5rem;
     }
+    .add-text p, .add-text h2, .add-text {
+        text-align: left;
+    }
 }
 @media (max-width:490px) {
     .add-text p, .add-text h2, .add-text {
