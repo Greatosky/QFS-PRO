@@ -22,9 +22,9 @@ function Hom() {
                 <div className="img-logo">
                     <img src={img} alt="qfs"  width="100" height="50"  />
                 </div>
-                <div>
-                    <button onClick={handleLogin}>Login</button> 
-                    <span onClick={handlesign}>Join QFS</span>
+                <div className='btn-group'>
+                    <button onClick={handleLogin} className='log-btn'>Login</button> 
+                    <button onClick={handlesign} className='join-btn'>Join QFS</button>
                 </div>
             </div>
             <div className="home-content">
@@ -39,7 +39,7 @@ function Hom() {
                 <div className="home-header">
                     <div className="home-content-use">
                         <div className="contenar ">
-                            <div>
+                            <div className='icon-container'>
                                 <img src={thr} alt="qfs" width="40" height="40" />
                             </div>
                             <div className="list">
@@ -73,7 +73,6 @@ function Hom() {
                 </div>
 
                 <div className="crypto-pack">
-                    <hr className="lines"/>
                     <div className="addvertisement">
                         <div className="img">
                             <img src={fiv} alt="qfs"  width="500" height="250"  />
@@ -86,28 +85,25 @@ function Hom() {
                         </div>
                     </div>
                 </div>
-                <hr className="lines"/>
 
-
-                <div className="home-content-list">
-                    <div className="list-one fir">
-                        <h2>1,000,000+</h2>
+                <div className="home-content-use">
+                    <div className="contenar">
+                        <h1>1,000,000+</h1>
                         <h3>Total users</h3>
                         <p>Intuitive design and user-friendly interface make QFSLedger the go-to choice for beginners and pros. Easily send, receive, and trade your crypto.</p>
                     </div>
-                    <div className="list-one fir">
-                        <h2>4.75</h2>
+                    <div className="contenar">
+                        <h1>4.75</h1>
                         <h3>On Google Play & App Store</h3>
                         <p>LOBSTR is the most trusted wallet on the Stellar network, thanks to its regular updates, powerful features, and ongoing support.</p>
                     </div>
-                    <div className="list-one ">
-                        <h2>5,000,000+</h2>
+                    <div className="contenar">
+                        <h1>5,000,000+</h1>
                         <h3>Monthly transactions</h3>
                         <p>Lightning-fast and affordable transactions with some of the lowest fees on the market, providing the seamless digital experience you deserve.</p>
                     </div>
                 </div>
                 <footer>
-                   
                         <div className="footer-text">
                             <img src={img} alt="qfs"  width="100" height="50"  />
                             <p> QFSLedger is operated by an independent commercial entity unaffiliated with the Stellar Development Foundation. </p>

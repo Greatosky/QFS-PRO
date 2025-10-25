@@ -7,6 +7,8 @@
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    box-sizing: border-box;
+    /* justify-content: center; */
     overflow-x: hidden;
 
 }
@@ -18,7 +20,7 @@
     display:flex;
     background:#000000ef;
     justify-content:space-between;
-    padding: 5px 3rem;
+    padding: 5px 2rem;
     font-weight:Regular 400;
     z-index:99;
     position: fixed;
@@ -33,33 +35,36 @@
     padding-top:.4rem;
     background: transparent;
 }
-#home button{
+.btn-group{
+    margin-top: .5rem;
+}
+.log-btn{
     background:transparent;
-   color: white;
+    color: white;
     display:inline-block;
     border:2px white solid;
     border-radius:4px;
     text-align:center;
     padding: .5rem 1rem;
     margin-right:6px;
-    margin-top: -1rem;
 }
-#home button:hover{
+.log-btn:hover{
     background:white;
     color:black;
     cursor:pointer;
     font-weight:bold;
 }
-#home span{
+.join-btn{
     display:inline-block;
-    border:2px white solid;
+    background:#812fdf;
+    border:none;
     border-radius:4px;
     text-align:center;
-   color: white;
-    padding: .8rem 2rem;
+    color: white;
+    padding: .5rem 2rem;
 }
-#home span:hover{
-    background:white;
+.join-btn:hover{
+    background:#812fdf86;
     color:black;
     cursor:pointer;
     font-weight:bold;
@@ -113,7 +118,7 @@
     width: 35rem;
     height: 20rem;
     border-radius: 1rem;
-    box-shadow: #9567c9 .8px .8px 1px .8px;
+    box-shadow: 0 2px 10px #9567c965;
 }
 
 
@@ -121,18 +126,30 @@
     background:white;
     margin-bottom: 1rem;
     display: inline-block;
-    width: 93%;
+    width: 100%;
     height: 100%;
     justify-content: center;
 }
 .home-content-use{
-    background:white;
-    display: flex;
-    /* align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    /* margin-right: 6rem; */
-    width: 100%;
+    margin-top: 2rem;
+    width: 100vw;
     gap: 1rem;
+    padding: 2rem 2rem;
+}
+.contenar{
+    display:block;
+    padding: 1rem 1rem;
+    border: whitesmoke solid 2px;
+    border-radius: 5px;
+}
+
+.contenar img{
+    width:2rem;
+    height: 2rem;
+    display: block;
 }
 .home-content-use h2{
     text-align: justify;
@@ -148,64 +165,38 @@
     font-size:13px;
     line-height: 1.5rem;
     font-family: "Poppins", sans-serif;
-
-}
-.contenar{
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    width: 25rem;
-}
-.contenar img{
-    width:2rem;
-    height: 2rem;
-    margin-top: -2.5rem;
-    display: inline-block;
-    position: absolute;
-}
-.list{
-    margin-left: 2rem;
-}
-.lines{
-    background: transparent;
-    border: #97979744 solid .1px;
 }
 
 .crypto-pack{
-    display: inline-block;
-    padding: 2rem 1rem;
+    width: 100%;
     color: black;
-    background: white;
+    background: whitesmoke;
 }
 
 .addvertisement{
-    display: flex;
-    padding: 1rem 3rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding: 1rem 2rem;
     gap: 2rem;
-    background:white;
-}
-.img{
-    width: 50%;
-    background:white;
 }
 .addvertisement img{
-    width: 90%;
+    object-fit: fill;
+    width: 100%;
 }
 .add-text{
-    width: 30rem;
-    margin-right: 1rem;
-    margin-top: 2.5rem;
+    display: block;
+    min-width: 25rem;
+    justify-content: left;
     text-align: left;
-    background:white;
-
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    border: whitesmoke solid 2px;
 }
 .add-text h2{
     font-size: 1.5rem;
     font-weight: 400;
     color:black;
     text-align: justify;
-    background:white;
-
 }
 .add-text p{
     font-size: .8rem;
@@ -213,61 +204,39 @@
     text-align: left;
     line-height: 1.2rem;
     margin-top: 1rem;
-    background:white;
-
 }
 .add-text button {
     background:#812fdf;
     font-weight: bold;
     display:inline-block;
-    border:2px rgb(5, 4, 4) solid;
+    border:none;
     border-radius:4px;
-    text-align:center;
     padding: .5rem 1rem;
     margin-right:6px;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 .add-text button:hover{
     background:white;
     color:black;
     cursor:pointer;
     font-weight:bold;
+    border: 2px black solid;
 }
 
-.home-content-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-    padding: 2rem 6rem;
-    gap: 2rem;
-    background: white;
-}
-.home-content-list h2{
+.contenar h1{
     font-size: 1.7rem;
     font-weight: bold;
     color:#812fdf;
     text-align: justify;
-    background: white;
-
 }
-.home-content-list h3{
+.contenar h3{
     color: black;
     text-align: justify;
     font-weight: bold;
     line-height: 2.5rem;
     font-size: 1rem;
-    background: white;
-
 }
-.home-content-list p{
-    color: rgb(88, 88, 88);
-    font-size: .8rem;
-    text-align: justify;
-    background: white;
-    
 
-}
 .line{
     width: 0;
     border: white solid .1px;
@@ -276,51 +245,26 @@
 }
 footer{
     background: black;
-    padding: 4rem 5.5rem;
     margin-top: 1rem;
     text-align: justify;
-
 }
 .footer-text {
-    display: inline-block;
-    text-align: justify;
-    width: 100%;
-    background: black;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 32rem;
+    gap: 1rem;
+    padding: 3rem 2rem;
 }
 
 .footer-text p{
     text-align: left;
-    margin-top: 1rem;
-    font-size: .8rem;
+    font-size:11px;
     color: rgb(88, 88, 88);
     width: 25rem;
     line-height: 1.2rem;
-    background: black;
-
+    padding: 4px;
 }
 
-@media (max-width:1047px) {
-    .add-text{
-        width: 30rem;
-    }
-    .home-content-list{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 3rem;
-        padding: 2rem 3rem;
-        gap: 1rem;
-    }
-    .contenar div img{
-        margin-top: -3.5rem;
-        position: absolute;
-    }
-   
-    .list p{
-        height: 5rem;
-    }
-}
 @media (max-width:1031px) {
     .home-content-text h1{
         font-size: 2.5rem;
@@ -328,22 +272,7 @@ footer{
     .home-content-text p{
         font-size: .8rem;
     }
-
-    .home-content-use{
-        gap: 0;
-    }
-    .contenar{
-        display: block;
-        margin-top: 4rem;
-    }
-    .contenar div img{
-        width:2rem;
-        height: 2rem;
-        margin-top: -2rem;
-        padding: 0 ;
-        display:block;
-        position: absolute;
-    }
+    
     .list{
         margin-left: 0;
     }
@@ -358,15 +287,10 @@ footer{
         font-size:11px;
         line-height: 1rem;
         padding: .2rem;
-
     }
+    .contenar h1{
+        font-size: 1.5rem;
     
-    .contenar img{
-        width:2rem;
-        height: 2rem;
-        margin-top: -2.5rem;
-        display: inline-block;
-        position: absolute;
     }
     
 }
@@ -382,15 +306,18 @@ footer{
         font-size: .8rem;
     }
     .home-header{
+        display: inline-block;
         width: 100%;
-        margin-top: 5rem;
     }
     .home-content-use{
-        display: inline-block;
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
-        width: 33rem;
-        background-color: transparent;
-        padding: 1rem;
+        width: 100%;
+        gap: 10px;
+        text-align: center;
+        padding: 1rem 2rem;
     }
     .list p{
         line-height: 1.5rem;
@@ -403,10 +330,14 @@ footer{
     }
     .contenar{
         width: 100%;
-        margin-top: .5rem;
-    }
-    .contenar div img{
-        position: absolute;
+        display: inline-block;
+        border: whitesmoke solid 2px;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        line-height: 2rem;
+        border-radius: 5px;
+        position: relative;
     }
     .img{
         display: block;
@@ -414,47 +345,26 @@ footer{
     }
     .img img{
         width: 100%;
-    }
-    .crypto-pack{
-        display: inline-block;
-        padding: 2rem 5rem;
-    }
+    } 
     .addvertisement{
-        display:inline-block;
-        text-align: center;
-        padding: 1rem 0;
+        gap: 1rem;
     }
     .add-text{
-        display: inline-block;
-        text-align: center;
-        width: 33rem;
-        line-height: 1rem;
+        min-width: 20rem;
     }
     .add-text h2{
-        text-align: center;
-        line-height: 3rem;
+        font-size: 1.3rem;
     }
     .add-text p{
-        text-align: center;
-        margin-top: 1rem;
-        font-size: .8rem;
-        line-height: 1.2rem
+        font-size:11px;
     }
-    .home-content-list{
-        display: inline-block;
-        width: 33rem;
+    .add-text button {
+        padding: .5rem .7rem;
     }
-    .fir{
-        margin-bottom: .6rem;
-    }
-    .list-one{
-        width: 90%;
-    }
-    footer{
-        padding: 4rem 3rem;
-    }
+
 }
-@media (max-width:688px) {
+@media (max-width:720px) {
+
     .home-content-text img{
         width: 22rem;
         height: 10rem;
@@ -473,92 +383,86 @@ footer{
         font-size: 1.5rem;
     }
     .home-content-text p{
-        font-size: .8rem;
+        font-size: 11px;
     }
     .contenar img{
         width:2rem;
         height: 1.3rem;
     }
     .home-content-use{
-        width: 28rem;
+        grid-template-columns:1fr;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem 3rem;
     }
     .contenar{
-        margin-top: 0;
-    }
-    .add-text{
-        display: inline-block;
-        text-align: center;
-        width: 95%;
-        line-height: 1rem;
-    }
-    .crypto-pack{
-        padding: 0;
+        margin-top: 20px;
     }
     .addvertisement{
-        padding: 1rem 3rem;
-    }
-    .list-one h2{
-        font-size: 1.5rem;
-    }
-    .list-one h3{
-        font-size: 1rem;
-        line-height: 1.8rem;
-    }
-    .list-one p{
-        font-size: .7rem;
-        line-height: 1rem;
-    }
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding: 1rem 1rem;
+    } 
+    .add-text{
+        max-width:30rem;
+    } 
 }
 @media (max-width:557px){
     #home{
-        padding: .8rem 1.1rem;
+        padding: .8rem 1.5rem;
     }
     .img-logo img{
         width: 80px;
         height: 40px;
     }
-    #home span{
+    .join-btn{
         padding: .2rem .5rem;
         margin-top: .2rem;
     }
-    #home button{
-    padding: .2rem 1rem;
-}
+    .log-btn{
+        padding: .2rem 1rem;
+        margin-top: .2rem;
+    }
     .home-content-text{
         width: 80%;
-        padding: 2.5rem 3rem;
+        /* background: red; */
+        justify-content: center;
+        padding:0;
         margin-top: 6rem;
+        margin-bottom: 3rem;
     }
     .qfs-logo img{
         height: 14rem;
     }
-
     .home-content-text h1{
+        display: inline-block;
+        max-width: 20rem;
         font-size: 1.5rem;
         text-align: left;
         margin-left: 0;
         display: block;
     }
     .home-content-text p{
-        font-size: .8rem;
         text-align: left;
+        width:20rem ;
     }
     .home-content-use{
+         width: 100%;
+         display: inline-block;
+         position: relative;
+         padding:0;
+    }
+    .contenar{
+        display: inline-block;
         width: 90%;
     }
-    
-   .home-content-list{
-        display: inline-block;
-        width: 94%;
-        padding: 1rem 1.5rem;
+    .footer-text {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        padding: 1.5rem 1.5rem;
     }
-    .add-text p, .add-text h2, .add-text {
-        text-align: left;
-    }
-}
-@media (max-width:490px) {
-    .add-text p, .add-text h2, .add-text {
-        text-align: left;
+    .footer-text p{
+        width: 100%;
     }
 }
 @media (max-width:461px) {
@@ -573,50 +477,30 @@ footer{
     .home-content-text{
         padding: 4rem 0;
         display: inline-block;
+        /* background-color: blue; */
     }
     .home-content-text h1{
+        width: 18rem;
         display: inline-block;
-        font-size: 1.3rem;
-        line-height: 2rem;
-        text-align: left;
-        padding:0 1rem;
+        font-size: 1.4rem;
+        
     }
     .home-content-text p{
         display: inline-block;
+        width: 18rem;
         font-size: 10px;
         line-height: 1.2rem;
-        padding:0 1rem;
-        margin-top: -3px;
+        margin-top: -2px;
+
     }
-    .home-content-use{
-         width: 87%;
-    }
-    .contenar{
-        margin-top: .5rem;
+    .home-header{
+        width: 100%;
     }
     .list p{
         line-height: 1.2rem;
          font-size:12px;
     }
-    .addvertisement{
-        padding: 1.5rem 1.5rem;
-    }
-    .home-content-list{
-        display: block;
-        width: 100%;
-    }
-    .list-one{
-        display: block;
-        width: 84%;
-    }
-    footer{
-        padding: 1.5rem 1.5rem;
-    }
-    .footer-text p{
-        text-align: left;
-        line-height: 1.1rem;
-        width: 95%;
-    }
+    
 }
 
 
