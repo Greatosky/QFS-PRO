@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/QFS-PRO/static/css/main.5657c0b0.css",
+    "main.css": "/QFS-PRO/static/css/main.1ab1f7a3.css",
     "main.js": "/QFS-PRO/static/js/main.a1238b8f.js",
     "static/js/453.96453769.chunk.js": "/QFS-PRO/static/js/453.96453769.chunk.js",
     "static/media/hero-background.jpg": "/QFS-PRO/static/media/hero-background.bc70f944c134a0f62cc3.jpg",
     "static/media/Screenshot-2025-02-11-at-1.10.44 AM-1024x379.png": "/QFS-PRO/static/media/Screenshot-2025-02-11-at-1.10.44 AM-1024x379.27a401957a16b9ee1cfd.png",
     "static/media/ti.jpg": "/QFS-PRO/static/media/ti.a7767ad4d2a2c99cde2d.jpg",
     "index.html": "/QFS-PRO/index.html",
-    "main.5657c0b0.css.map": "/QFS-PRO/static/css/main.5657c0b0.css.map",
+    "main.1ab1f7a3.css.map": "/QFS-PRO/static/css/main.1ab1f7a3.css.map",
     "main.a1238b8f.js.map": "/QFS-PRO/static/js/main.a1238b8f.js.map",
     "453.96453769.chunk.js.map": "/QFS-PRO/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5657c0b0.css",
+    "static/css/main.1ab1f7a3.css",
     "static/js/main.a1238b8f.js"
   ]
 }
